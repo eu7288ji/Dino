@@ -11,5 +11,8 @@ public class DinosaurSupervisor {
         velociraptor.roar();
         diplodocus.roar();
         pterodactyl.roar();
+
+        t_rex.color = "American Blue";
+        System.out.println("A T-Rex is " + t_rex.color);
     }
 }
